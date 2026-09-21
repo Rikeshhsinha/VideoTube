@@ -1,9 +1,6 @@
 import dns from "dns";
 
-dns.setServers([
-    "8.8.8.8",
-    "1.1.1.1"
-]);
+dns.setServers(["8.8.8.8", "1.1.1.1"]);
 
 import "dotenv/config.js";
 import app from "./src/app.js";
