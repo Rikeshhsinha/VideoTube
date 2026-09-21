@@ -1,0 +1,30 @@
+{
+  "name": "videotube",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Rikeshhsinha/VideoTube#readme",
+  "bugs": {
+    "url": "https://github.com/Rikeshhsinha/VideoTube/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rikeshhsinha/VideoTube.git"
+  },
+  "license": "ISC",
+  "author": "Rikesh Sinha",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
